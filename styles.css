@@ -350,7 +350,7 @@ geological-features {
 
     /* Images */
     .images-wrapper {
-        min-height: 460px;
+        min-height: 430px;
     }
 
     #mercury .overview-image { 
