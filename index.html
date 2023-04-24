@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&family=League+Spartan:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <title>The Planets</title>
+</head>
+
+<body>
+  <div class="planets-container">
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar-logo">The Planets</div>
+      <button class="menu-icon">
+        <img src="./assets//icon-hamburger.svg" alt="menu">
+      </button>
+      <ul class="navbar-link-wrapper"></ul>
+    </nav>
+    <!-- Main -->
+    <div class="planets-wrapper">
+      <div class="planet-facts">
+        <!-- Planet images -->
+        <planet-images>
+          <div class="images-wrapper">
+            <img src="./assets/planet-mercury.svg" alt="Overview" class="overview-image">
+            <img src="./assets/geology-mercury.png" alt="Surface geology" class="surface-image">
+          </div>
+        </planet-images>
+        <!-- Planet description -->
+        <planet-description>
+          <div class="planet-description">
+            <h1 class="planet-title"></h1>
+            <p class="planet-detail"></p>
+            <div class="planet-source">
+              <span>Source :</span>
+              <a href="" class="planet-wikilink">Wikipedia</a>
+              <img src="./assets/icon-source.svg">
+            </div>
+          </div>
+        </planet-description>
+        <!-- Planet geological features -->
+        <geological-features>
+          <div class="buttons-container"></div>
+        </geological-features>
+      </div>
+      <!-- Planet info -->
+      <div class="planet-info"></div>
+    </div>
+  </div>
+</body>
+<!-- JavaScript -->
+<script src="script.js" type="module"></script>
+
+</html>
